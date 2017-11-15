@@ -7,6 +7,8 @@ public class Lab3Exercises {
 		Joelys.setLocation(900, 400);
 		Joelys.setSize(200, 200);
 		Joelys.setVisible(true); 
+		MyPanelClass myPanel = new MyPanelClass();
+        Joelys.getContentPane().add(myPanel);
 		
 	}
 }
