@@ -18,7 +18,7 @@ public class MyPanelClass extends JPanel {
                         int y1 = myInsets.top;
                         int x2 = getWidth() - myInsets.right - 1;
                         int y2 = getHeight() - myInsets.bottom - 1;
-                        int width = x2 - x1;
+                        int width = x2 - x1; 
                         int height = y2 - y1;
  
                         //Paint the background
