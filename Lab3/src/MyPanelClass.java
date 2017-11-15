@@ -43,6 +43,6 @@ public class MyPanelClass extends JPanel {
                         
                         //Draw oval
                         g.setColor(Color.LIGHT_GRAY);
-                        g.fillOval(x1 + 70, y1 + 60, 55, 55);
+                        g.fillOval((width - 55)/2, (height - 55)/2, 55, 55);
             }
 }
